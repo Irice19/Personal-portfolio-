@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }, observerOptions);
 
-    const cards = document.querySelectorAll('.skill-card, .project-card');
+    const cards = document.querySelectorAll('.skill-card, .project-card, .contact-form-card');
     cards.forEach(card => {
         card.style.opacity = "0";
         card.style.transform = "translateY(40px)";
