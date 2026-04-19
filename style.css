@@ -13,7 +13,7 @@ nav {
     top: 0;
     right: 0;
     width: 100%;
-    background-color: rgba(193, 208, 221, 0.9); /* Slight transparency */
+    background-color: rgba(193, 208, 221, 0.9);
     z-index: 1000;
     padding: 20px 10%;
     display: flex;
@@ -113,7 +113,7 @@ html {
 }
 
 .skill-card {
-    background: rgba(255, 255, 255, 0.45); /* Soft transparent white */
+    background: rgba(255, 255, 255, 0.45);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.7);
     padding: 30px;
@@ -162,7 +162,7 @@ html {
 }
 #projects {
     padding: 60px 10%;
-    /* Ensures no overlap if you have a fixed nav */
+  
     scroll-margin-top: 80px; 
 }
 
@@ -181,10 +181,8 @@ html {
 
 .projects-grid {
     display: grid;
-    /* This ensures cards fill the space evenly */
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
-    /* Forces all cards in a row to be equal height */
     align-items: stretch;
 }
 
@@ -199,7 +197,7 @@ html {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    height: 100%; /* Important for equal heights */
+    height: 100%; 
 }
 
 .card-border-top {
@@ -297,8 +295,6 @@ html {
     color: #4a5568;
     margin: 0;
 }
-
-/* Form Styling */
 .form-group {
     margin-bottom: 15px;
 }
@@ -326,8 +322,6 @@ input, textarea {
 .submit-btn:hover {
     background: #4338ca;
 }
-
-/* Footer Styling */
 .portfolio-footer {
     margin-top: 80px;
     text-align: center;
