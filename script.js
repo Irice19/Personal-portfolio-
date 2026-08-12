@@ -64,7 +64,7 @@ function renderPortfolio() {
         </ul>`;
 
     document.getElementById('hero').innerHTML = `
-        <img src="images/WhatsApp Image 2026-02-06 at 15.32.27.jpeg" class="profile-photo" alt="${portfolioData.name}">
+         <img src="images/profilePic.jpg" class="profile-photo" alt="${portfolioData.name}">
         <div class="header-text">
             <p class="subtitle"></p>
             <h1>Hi, I am ${portfolioData.name}</h1>
@@ -72,7 +72,6 @@ function renderPortfolio() {
                 ${portfolioData.bio.map(p => `<p>${p}</p>`).join('')}
             </div>
         </div>`;
-
     document.getElementById('skills-grid').innerHTML = portfolioData.skills.map(s => `
         <div class="skill-card">
             <h3>${s.category}</h3>
@@ -163,4 +162,6 @@ document.addEventListener("DOMContentLoaded", () => {
         el.style.transition = "all 0.6s cubic-bezier(0.4, 0, 0.2, 1)";
         revealObserver.observe(el);
     });
+
 });
+
